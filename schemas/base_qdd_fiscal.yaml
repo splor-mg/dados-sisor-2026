@@ -1,0 +1,86 @@
+fields:
+  - name: ANO
+    target: ano
+    type: integer
+  - name: COD_ORGAO
+    target: orgao_cod
+    type: integer
+  - name: ORGAO
+    target: orgao_nome_sigla
+    type: string
+  - name: PODER
+    target: poder_cod
+    type: integer
+  - name: SITUACAO
+    type: integer
+  - name: COD_UO
+    target: uo_cod
+    type: integer
+  - name: UO
+    target: uo_nome_sigla
+    type: string
+  - name: CATEGORIA
+    target: categoria_cod
+    type: integer
+  - name: GRUPO_DESPESA
+    target: grupo_cod
+    type: integer
+  - name: MODALIDADE
+    target: modalidade_cod
+    type: integer
+  - name: ELEMENTO_DESPESA
+    target: elemento_cod
+    type: integer
+  - name: FONTE
+    target: fonte_cod
+    type: integer
+  - name: IPU
+    target: ipu_cod
+    type: integer
+  - name: SEQ_PROGTRAB
+    type: integer
+  - name: FUNCAO
+    target: funcao_cod
+    type: integer
+  - name: SUB_FUNCAO
+    target: subfuncao_cod
+    type: integer
+  - name: PROGRAMA
+    target: programa_cod
+    type: integer
+  - name: IDENT_PROJATIV
+    target: identificador_tipo_acao_cod
+    type: integer
+  - name: PROJ_ATIV
+    target: projeto_atividade_cod
+    type: integer
+  - name: AÇÃO
+    target: acao_cod
+    type: integer
+  - name: SUB_PROJETO
+    target: subprojeto_subatividade_cod
+    type: integer
+  - name: VALOR UO (R$)
+    target: vlr_loa_desp_uo
+    type: number
+    groupChar: '.'
+    decimalChar: ','
+  - name: VALOR SCPPO (R$)
+    target: vlr_loa_desp_scppo
+    type: number
+    groupChar: '.'
+    decimalChar: ','
+  - name: VALOR FINAL (R$)
+    target: vlr_loa_desp
+    type: number
+    groupChar: '.'
+    decimalChar: ','
+  - name: IAG
+    target: iag_cod
+    type: integer
+  - name: NOME_ACAO
+    target: acao_desc
+    type: string
+  - name: NOME_PROGRAMA
+    target: programa_desc
+    type: string

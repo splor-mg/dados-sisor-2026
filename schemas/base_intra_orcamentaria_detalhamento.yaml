@@ -1,0 +1,17 @@
+fields:
+  - name: Cód. UO Beneficiada
+    type: integer
+    target: uo_cod
+  - name: UO Beneficiada
+    type: string
+    target: uo_sigla
+  - name: Valor Recebido (R$)
+    type: number
+    target: vlr_recebido
+    groupChar: '.'
+    decimalChar: ','
+  - name: Valor Detalhado (R$)
+    type: number
+    target: vlr_detalhado
+    groupChar: '.'
+    decimalChar: ','    

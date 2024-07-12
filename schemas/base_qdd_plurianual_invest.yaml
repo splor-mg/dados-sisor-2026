@@ -1,0 +1,68 @@
+fields:
+  - name: ANO
+    target: ano
+    type: integer
+  - name: COD_ORGAO
+    target: orgao_cod
+    type: integer
+  - name: DESC_ORGAO
+    target: orgao_nome_sigla
+    type: string
+  - name: COD_UO
+    target: uo_cod
+    type: integer
+  - name: DESC_UO
+    target: uo_nome_sigla
+    type: string
+  - name: FUNCAO
+    target: funcao_cod
+    type: integer
+  - name: SUBFUNCAO
+    target: subfuncao_cod
+    type: integer
+  - name: COD_PROGRAMA
+    target: programa_cod
+    type: integer
+  - name: IDENT_PROJATIV
+    type: integer
+  - name: PROJ_ATIV
+    type: integer
+  - name: AÇÃO
+    target: acao_cod
+    type: integer
+  - name: SUBPROJETO
+    type: integer
+  - name: CATEGORIA
+    type: integer
+  - name: FONTE
+    target: fonte_invest_cod
+    type: integer
+  - name: IAG
+    target: iag_cod
+    type: integer
+  - name: PROGRAMA
+    target: programa_desc
+    type: string
+  - name: ACAO
+    target: acao_desc
+    type: string
+  - name: VALOR (R$) 2024
+    target: vlr_loa_desp_invest_ano0
+    type: number
+    groupChar: '.'
+    decimalChar: ','
+  - name: VALOR (R$) 2025
+    target: vlr_loa_desp_invest_ano1
+    type: number
+    groupChar: '.'
+    decimalChar: ','
+  - name: VALOR (R$) 2026
+    target: vlr_loa_desp_invest_ano2
+    type: number
+    groupChar: '.'
+    decimalChar: ','
+  - name: VALOR (R$) 2027
+    target: vlr_loa_desp_invest_ano3
+    type: number
+    groupChar: '.'
+    decimalChar: ','

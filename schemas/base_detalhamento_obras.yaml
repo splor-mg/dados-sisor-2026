@@ -1,0 +1,81 @@
+fields:
+  - name: UO
+    target: uo_cod
+    type: integer
+  - name: FUNCAO
+    target: funcao_cod
+    type: integer
+  - name: SUBFUNCAO
+    target: subfuncao_cod
+    type: integer
+  - name: PROGRAMA
+    target: programa_cod
+    type: integer
+  - name: ACAO
+    target: acao_cod
+    type: integer
+  - name: SUBPROJETO
+    target: subprojeto_subatividade_cod
+    type: integer
+  - name: IAG
+    target: iag_cod
+    type: integer
+  - name: NUMERO DA OBRA SISOR
+    type: integer
+  - name: NUMERO DA OBRA SIAD
+    type: integer
+    missingValues: ["0"]
+  - name: DESCRICAO DA OBRA
+    type: string
+  - name: STATUS DA OBRA
+    type: string
+  - name: UNIDADE DE MEDIDA DA OBRA
+    type: string
+  - name: QUANTIDADE
+    type: integer
+  - name: ALTERAR UNIDADE DE MEDIDA DA OBRA
+    type: string
+  - name: REGIÃO GEOGRÁFICA INTERMEDIÁRIA
+    type: string
+  - name: MUNICÍPIO
+    type: string
+  - name: VALOR TESOURO 2024 (R$)
+    target: vlr_tesouro_ano0
+    type: number
+    groupChar: '.'
+    decimalChar: ','    
+  - name: VALOR OUTROS 2024 (R$)
+    target: vlr_outros_ano0
+    type: number
+    groupChar: '.'
+    decimalChar: ','    
+  - name: VALOR TESOURO 2025 (R$)
+    target: vlr_tesouro_ano1
+    type: number
+    groupChar: '.'
+    decimalChar: ','    
+  - name: VALOR OUTROS 2025 (R$)
+    target: vlr_outros_ano1
+    type: number
+    groupChar: '.'
+    decimalChar: ','    
+  - name: VALOR TESOURO 2026 (R$)
+    target: vlr_tesouro_ano2
+    type: number
+    groupChar: '.'
+    decimalChar: ','    
+  - name: VALOR OUTROS 2026 (R$)
+    target: vlr_outros_ano2
+    type: number
+    groupChar: '.'
+    decimalChar: ','    
+  - name: VALOR TESOURO 2027 (R$)
+    target: vlr_tesouro_ano3
+    type: number
+    groupChar: '.'
+    decimalChar: ','    
+  - name: VALOR OUTROS 2027 (R$)
+    target: vlr_outros_ano3
+    type: number
+    groupChar: '.'
+    decimalChar: ','    

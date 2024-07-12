@@ -1,0 +1,34 @@
+fields:
+  - name: Cód. UO Repassadora
+    type: integer
+    target: uo_repassadora_cod
+  - name: UO Repassadora
+    type: string
+    target: uo_repassadora_sigla
+  - name: Cód. Programa de Trabalho
+    type: string
+    target: programa_trabalho_fmt
+  - name: Ação
+    target: acao_desc
+    type: string
+  - name: Cód. Natureza de Despesa
+    type: string
+    target: natureza_desp_fmt
+  - name: Elemento Item
+    type: string
+    target: item_desc
+  - name: Valor Repassado (R$)
+    type: number
+    target: vlr_repassado
+    groupChar: '.'
+    decimalChar: ','    
+  - name: Cód. UO Beneficiada
+    type: integer
+    target: uo_beneficiada_cod
+    missingValues:
+      - 'Não Repassado'
+  - name: UO Beneficiada
+    type: string
+    target: uo_beneficiada_sigla
+    missingValues:
+      - 'Não Repassado'

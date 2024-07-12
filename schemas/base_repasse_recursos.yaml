@@ -1,0 +1,30 @@
+fields:
+  - name: Cód. UO Financiadora
+    type: integer
+    target: uo_financiadora_cod
+  - name: UO Financiadora
+    type: string
+    target: uo_financiadora_nome
+  - name: Cód. UO Beneficiada
+    type: integer
+    target: uo_beneficiada_cod
+  - name: UO Beneficiada
+    type: string
+    target: uo_beneficiada_nome
+  - name: Grupo de Despesa
+    type: integer
+    target: grupo_cod
+  - name: Fonte
+    type: integer
+    target: fonte_cod
+  - name: IPU
+    type: integer
+    target: ipu_cod
+  - name: IAG
+    type: integer
+    target: iag_cod
+  - name: Valor Transferido (R$)
+    type: number
+    target: vlr_repasse
+    groupChar: '.'
+    decimalChar: ','

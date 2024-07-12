@@ -1,0 +1,65 @@
+fields:
+  - name: ANO
+    type: integer
+  - name: COD_ORGAO
+    target: orgao_cod
+    type: integer
+  - name: ORGAO
+    target: orgao_nome_sigla
+    type: string
+  - name: PODER
+    target: poder_cod
+    type: integer
+  - name: COD_UO
+    target: uo_cod
+    type: integer
+  - name: UO
+    target: uo_nome_sigla
+    type: string
+  - name: SEQ_PROGTRAB
+    type: integer
+  - name: FUNCAO
+    target: funcao_cod
+    type: integer
+  - name: SUB_FUNCAO
+    target: subfuncao_cod
+    type: integer
+  - name: PROGRAMA
+    target: programa_cod
+    type: integer
+  - name: IDENT_PROJATIV
+    type: integer
+  - name: PROJ_ATIV
+    type: integer
+  - name: AÇÃO
+    target: acao_cod
+    type: integer
+  - name: VALOR (R$)
+    target: vlr_loa_desp_invest
+    type: number
+    groupChar: '.'
+    decimalChar: ','
+  - name: IAG
+    target: iag_cod
+    type: integer
+  - name: DESC_PROJETO_ATIV
+    type: string
+  - name: CATEGORIA
+    target: categoria_cod
+    type: string
+  - name: COD_NATUREZA
+    target: natureza_cod
+    type: integer
+  - name: NATUREZA
+    type: string
+  - name: COD_FONTE
+    target: fonte_cod
+    type: integer
+  - name: FONTE
+    type: string
+  - name: NOME_ACAO
+    target: acao_desc
+    type: string
+  - name: NOME_PROGRAMA
+    target: programa_desc
+    type: string

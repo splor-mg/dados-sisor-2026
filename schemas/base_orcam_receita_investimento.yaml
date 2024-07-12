@@ -1,0 +1,41 @@
+fields:
+  - name: COD_UO
+    target: uo_cod
+    type: integer
+  - name: NOME_UO
+    target: uo_nome
+    type: string
+  - name: SIGLA_UO
+    target: uo_sigla
+    type: string
+  - name: CATEGORIA
+    type: integer
+  - name: SUBCATEGORIA
+    type: integer
+  - name: ALINEA
+    type: integer
+  - name: SUBALINEA
+    type: integer
+  - name: COD_RECEITA
+    type: string
+  - name: NIVEL_ORIGEM
+    type: string
+  - name: RECEITA
+    type: string
+  - name: VALOR UO (R$)
+    target: vlr_loa_rec_uo_invest
+    type: number
+    groupChar: '.'
+    decimalChar: ','
+  - name: VALOR SCPPO (R$)
+    target: vlr_loa_rec_scppo_invest
+    type: number
+    groupChar: '.'
+    decimalChar: ','
+  - name: VALOR FINAL (R$)
+    target: vlr_loa_rec_invest
+    type: number
+    groupChar: '.'
+    decimalChar: ','
+  - name: ANO
+    type: integer

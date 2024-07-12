@@ -1,0 +1,23 @@
+fields:
+  - name: ORGAO_COD
+    type: string
+  - name: UNIDADE_ADIMINISTRATIVA_COD
+    type: string
+  - name: Número da Obra SIAD
+    type: integer
+  - name: Número de Referência da UO
+    type: string
+  - name: Situação
+    type: string
+  - name: Descrição
+    type: string
+  - name: Data de Início
+    type: string
+  - name: Data de Término
+    type: string
+  - name: Ano de Exercício
+    type: integer
+  - name: Valor Global (R$)
+    type: number
+    groupChar: '.'
+    decimalChar: ','    

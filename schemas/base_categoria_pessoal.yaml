@@ -1,0 +1,13 @@
+fields:
+  - name: Ano de Exercício
+    target: ano
+    type: integer
+  - name: UO
+    target: uo_cod_sigla
+    type: string
+  - name: Classificação
+    type: string
+  - name: Categoria
+    type: string
+  - name: Quantidade
+    type: integer

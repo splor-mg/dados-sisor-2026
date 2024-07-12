@@ -1,0 +1,70 @@
+fields:
+  - name: Código do Órgão
+    target: orgao_cod
+    type: integer
+  - name: Órgão
+    target: orgao_nome_sigla
+    type: string
+  - name: Código da UO
+    target: uo_cod
+    type: integer
+  - name: Unidade Orçamentária
+    target: uo_nome_sigla
+    type: string
+  - name: Função
+    target: funcao_cod
+    type: integer
+  - name: Subfunção
+    target: subfuncao_cod 
+    type: integer
+  - name: Programa
+    target: programa_cod
+    type: integer
+  - name: Identificador
+    target: identificador
+    type: integer
+  - name: Projeto_Atividade
+    target: projeto_atividade
+    type: integer
+  - name: Ação
+    target: acao_cod
+    type: integer
+  - name: Subprojeto
+    target: subprojeto_cod
+    type: integer
+  - name: Fonte
+    target: fonte_cod
+    type: integer
+  - name: IAG
+    target: iag_cod
+    type: integer
+  - name: Descrição
+    type: string
+  - name: Categoria
+    target: categoria_cod
+    type: string
+  - name: Código da Natureza
+    target: natureza_cod
+    type: integer
+  - name: Natureza
+    type: string
+  - name: Valor (R$) 2024
+    target: vlr_loa_desp_invest_ano0
+    type: number
+    groupChar: '.'
+    decimalChar: ','    
+  - name: Valor (R$) 2025
+    target: vlr_loa_desp_invest_ano1
+    type: number
+    groupChar: '.'
+    decimalChar: ','    
+  - name: Valor (R$) 2026
+    target: vlr_loa_desp_invest_ano2
+    type: number
+    groupChar: '.'
+    decimalChar: ','    
+  - name: Valor (R$) 2027
+    target: vlr_loa_desp_invest_ano3
+    type: number
+    groupChar: '.'
+    decimalChar: ','    
