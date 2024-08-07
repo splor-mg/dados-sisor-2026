@@ -16,12 +16,12 @@ fields:
   - name: IAG
     target: iag_cod
     type: integer
-  - name: Valor Limite 2024
+  - name: Valor Limite 2025
     target: vlr_limite_ano0
     type: number
     groupChar: '.'
     decimalChar: ','    
-  - name: Valor Utilizado 2024
+  - name: Valor Utilizado 2025
     target: vlr_utilizado_ano0
     type: number
     groupChar: '.'
@@ -31,32 +31,32 @@ fields:
     type: number
     groupChar: '.'
     decimalChar: ','    
-  - name: Valor Limite 2025
+  - name: Valor Limite 2026
     target: vlr_limite_ano1
     type: number
     groupChar: '.'
     decimalChar: ','    
-  - name: Valor Utilizado 2025
+  - name: Valor Utilizado 2026
     target: vlr_utilizado_ano1
     type: number
     groupChar: '.'
     decimalChar: ','    
-  - name: Valor Limite 2026
+  - name: Valor Limite 2027
     target: vlr_limite_ano2
     type: number
     groupChar: '.'
     decimalChar: ','    
-  - name: Valor Utilizado 2026
+  - name: Valor Utilizado 2027
     target: vlr_utilizado_ano2
     type: number
     groupChar: '.'
     decimalChar: ','    
-  - name: Valor Limite 2027
+  - name: Valor Limite 2028
     target: vlr_limite_ano3
     type: number
     groupChar: '.'
     decimalChar: ','    
-  - name: Valor Utilizado 2027
+  - name: Valor Utilizado 2028
     target: vlr_utilizado_ano3
     type: number
     groupChar: '.'

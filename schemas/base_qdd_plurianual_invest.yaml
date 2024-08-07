@@ -46,11 +46,6 @@ fields:
   - name: ACAO
     target: acao_desc
     type: string
-  - name: VALOR (R$) 2024
-    target: vlr_loa_desp_invest_ano0
-    type: number
-    groupChar: '.'
-    decimalChar: ','
   - name: VALOR (R$) 2025
     target: vlr_loa_desp_invest_ano1
     type: number
@@ -63,6 +58,11 @@ fields:
     decimalChar: ','
   - name: VALOR (R$) 2027
     target: vlr_loa_desp_invest_ano3
+    type: number
+    groupChar: '.'
+    decimalChar: ','
+  - name: VALOR (R$) 2028
+    target: vlr_loa_desp_invest_ano0
     type: number
     groupChar: '.'
     decimalChar: ','

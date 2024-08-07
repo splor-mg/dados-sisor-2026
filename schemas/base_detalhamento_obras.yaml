@@ -39,42 +39,42 @@ fields:
     type: string
   - name: MUNICÍPIO
     type: string
-  - name: VALOR TESOURO 2024 (R$)
+  - name: VALOR TESOURO 2025 (R$)
     target: vlr_tesouro_ano0
     type: number
     groupChar: '.'
     decimalChar: ','    
-  - name: VALOR OUTROS 2024 (R$)
+  - name: VALOR OUTROS 2025 (R$)
     target: vlr_outros_ano0
     type: number
     groupChar: '.'
     decimalChar: ','    
-  - name: VALOR TESOURO 2025 (R$)
+  - name: VALOR TESOURO 2026 (R$)
     target: vlr_tesouro_ano1
     type: number
     groupChar: '.'
     decimalChar: ','    
-  - name: VALOR OUTROS 2025 (R$)
+  - name: VALOR OUTROS 2026 (R$)
     target: vlr_outros_ano1
     type: number
     groupChar: '.'
     decimalChar: ','    
-  - name: VALOR TESOURO 2026 (R$)
+  - name: VALOR TESOURO 2027 (R$)
     target: vlr_tesouro_ano2
     type: number
     groupChar: '.'
     decimalChar: ','    
-  - name: VALOR OUTROS 2026 (R$)
+  - name: VALOR OUTROS 2027 (R$)
     target: vlr_outros_ano2
     type: number
     groupChar: '.'
     decimalChar: ','    
-  - name: VALOR TESOURO 2027 (R$)
+  - name: VALOR TESOURO 2028 (R$)
     target: vlr_tesouro_ano3
     type: number
     groupChar: '.'
     decimalChar: ','    
-  - name: VALOR OUTROS 2027 (R$)
+  - name: VALOR OUTROS 2028 (R$)
     target: vlr_outros_ano3
     type: number
     groupChar: '.'
