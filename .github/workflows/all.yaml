@@ -3,7 +3,7 @@ name: Updated
 on:
   workflow_dispatch:
   schedule:
-    - cron:  '00 09 * * 1-5'
+    - cron:  '0 9 * * 1-5'
 
 jobs:
   all:
@@ -34,15 +34,10 @@ jobs:
         git config user.name "Automated"
         git config user.email "actions@users.noreply.github.com"
         make publish
-    - name: Publish data package
-      run: |-
-        git config user.name "Automated"
-        git config user.email "actions@users.noreply.github.com"
-        make publish
     - name: Workflow failure notification
       uses: JasonEtco/create-an-issue@v2
       if: failure()
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GH_PAT }}
       with:
         filename: .github/workflow-failure.md
