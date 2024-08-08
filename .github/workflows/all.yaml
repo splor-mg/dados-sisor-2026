@@ -27,6 +27,15 @@ jobs:
         tags: fjuniorr/${{ github.event.repository.name }}:latest
         cache-from: type=registry,ref=fjuniorr/${{ github.event.repository.name }}:latest
         cache-to: type=inline
+    - name: Extract single excel
+      run: |-
+        curl -X POST 'https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp' \
+            -H 'User-Agent: splor' \
+            -d 'sAnoSelecao=2025' \
+            -d 'sTabelaSelec=1' \
+            -d 'CmNomePlanilha=BASE_ORCAM_DESPESA_ITEM_FISCAL.xls' \
+            -d 'selecaoAno=2025' \
+            -d 'sBaseSelec=1'
     - name: ETL pipeline
       run: docker run --rm --mount type=bind,source=${PWD},target=/project fjuniorr/${{ github.event.repository.name }} make all
     - name: Publish data package
