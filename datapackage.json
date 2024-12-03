@@ -937,7 +937,6 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:783abca99e5ad08243dd76c2981cdad86814a2f3498c7d57d5ac03e456cb1ab2",
       "bytes": 579999,
       "fields": 24,
       "rows": 1178,
@@ -1163,10 +1162,6 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:bd8eaebc6b8aafcd6105e4ac1b98def435578948782da26774f017fa0d5c6628",
-      "bytes": 129494,
-      "fields": 10,
-      "rows": 447,
       "schema": {
         "fields": [
           {
