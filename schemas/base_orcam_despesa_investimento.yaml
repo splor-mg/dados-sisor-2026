@@ -15,7 +15,7 @@ fields:
     target: funcao_cod
     type: integer
   - name: Subfunção
-    target: subfuncao_cod 
+    target: subfuncao_cod
     type: integer
   - name: Programa
     target: programa_cod
@@ -48,23 +48,23 @@ fields:
     type: integer
   - name: Natureza
     type: string
-  - name: Valor (R$) 2025
+  - name: Valor (R$) 2026
     target: vlr_loa_desp_invest_ano0
     type: number
     groupChar: '.'
-    decimalChar: ','    
-  - name: Valor (R$) 2026
+    decimalChar: ','
+  - name: Valor (R$) 2027
     target: vlr_loa_desp_invest_ano1
     type: number
     groupChar: '.'
-    decimalChar: ','    
-  - name: Valor (R$) 2027
+    decimalChar: ','
+  - name: Valor (R$) 2028
     target: vlr_loa_desp_invest_ano2
     type: number
     groupChar: '.'
-    decimalChar: ','    
-  - name: Valor (R$) 2028
+    decimalChar: ','
+  - name: Valor (R$) 2029
     target: vlr_loa_desp_invest_ano3
     type: number
     groupChar: '.'
-    decimalChar: ','    
+    decimalChar: ','

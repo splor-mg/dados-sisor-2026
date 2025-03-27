@@ -11,10 +11,10 @@ resources:
     schema: schemas/base_orcam_despesa_item_fiscal.yaml
     api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
-      sAnoSelecao: 2025
+      sAnoSelecao: 2026
       sTabelaSelec: 1
       CmNomePlanilha: BASE_ORCAM_DESPESA_ITEM_FISCAL.xls
-      selecaoAno: 2025
+      selecaoAno: 2026
       sBaseSelec: 1
   - name: base_qdd_plurianual
     title: Detalhamento Plurianual Fiscal
@@ -27,10 +27,10 @@ resources:
     schema: schemas/base_qdd_plurianual.yaml
     api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
-      sAnoSelecao: 2025
+      sAnoSelecao: 2026
       sTabelaSelec: 9
       CmNomePlanilha: BASE_QDD_PLURIANUAL.xls
-      selecaoAno: 2025
+      selecaoAno: 2026
       sBaseSelec: 9
   - name: base_qdd_plurianual_invest
     title: Detalhamento Plurianual Investimento
@@ -43,10 +43,10 @@ resources:
     schema: schemas/base_qdd_plurianual_invest.yaml
     api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
-      sAnoSelecao: 2025
+      sAnoSelecao: 2026
       sTabelaSelec: 16
       CmNomePlanilha: BASE_QDD_PLURIANUAL_INVEST.xls
-      selecaoAno: 2025
+      selecaoAno: 2026
       sBaseSelec: 16
   - name: base_orcam_despesa_investimento
     title: Orçamento da Despesa de Investimento
@@ -59,10 +59,10 @@ resources:
     schema: schemas/base_orcam_despesa_investimento.yaml
     api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
-      sAnoSelecao: 2025
+      sAnoSelecao: 2026
       sTabelaSelec: 2
       CmNomePlanilha: BASE_ORCAM_DESPESA_INVESTIMENTO.xls
-      selecaoAno: 2025
+      selecaoAno: 2026
       sBaseSelec: 2
   - name: base_detalhamento_obras
     title: Detalhamento de Obras
@@ -75,10 +75,10 @@ resources:
     schema: schemas/base_detalhamento_obras.yaml
     api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
-      sAnoSelecao: 2025
+      sAnoSelecao: 2026
       sTabelaSelec: 3
       CmNomePlanilha: BASE_DETALHAMENTO_OBRAS.xls
-      selecaoAno: 2025
+      selecaoAno: 2026
       sBaseSelec: 3
   - name: base_qdd_fiscal
     title: QDD Fiscal
@@ -91,10 +91,10 @@ resources:
     schema: schemas/base_qdd_fiscal.yaml
     api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
-      sAnoSelecao: 2025
+      sAnoSelecao: 2026
       sTabelaSelec: 4
       CmNomePlanilha: BASE_QDD_FISCAL.xls
-      selecaoAno: 2025
+      selecaoAno: 2026
       sBaseSelec: 4
   - name: base_qdd_investimento
     title: QDD Investimento
@@ -107,10 +107,10 @@ resources:
     schema: schemas/base_qdd_investimento.yaml
     api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
-      sAnoSelecao: 2025
+      sAnoSelecao: 2026
       sTabelaSelec: 5
       CmNomePlanilha: BASE_QDD_INVESTIMENTO.xls
-      selecaoAno: 2025
+      selecaoAno: 2026
       sBaseSelec: 5
   - name: base_orcam_receita_fiscal
     title: Orçamento da Receita Fiscal
@@ -123,10 +123,10 @@ resources:
     schema: schemas/base_orcam_receita_fiscal.yaml
     api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
-      sAnoSelecao: 2025
+      sAnoSelecao: 2026
       sTabelaSelec: 6
       CmNomePlanilha: BASE_ORCAM_RECEITA_FISCAL.xls
-      selecaoAno: 2025
+      selecaoAno: 2026
       sBaseSelec: 6
   - name: base_orcam_receita_investimento
     title: Orçamento da Receita Investimento
@@ -139,10 +139,10 @@ resources:
     schema: schemas/base_orcam_receita_investimento.yaml
     api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
-      sAnoSelecao: 2025
+      sAnoSelecao: 2026
       sTabelaSelec: 7
       CmNomePlanilha: BASE_ORCAM_RECEITA_INVESTIMENTO.xls
-      selecaoAno: 2025
+      selecaoAno: 2026
       sBaseSelec: 7
   - name: base_obras_siad
     title: Registro de Obras no SIAD
@@ -155,10 +155,10 @@ resources:
     schema: schemas/base_obras_siad.yaml
     api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
-      sAnoSelecao: 2025
+      sAnoSelecao: 2026
       sTabelaSelec: 11
       CmNomePlanilha: BASE_OBRAS_SIAD.xls
-      selecaoAno: 2025
+      selecaoAno: 2026
       sBaseSelec: 11
   - name: base_categoria_pessoal
     title: Categoria de Pessoal
@@ -171,10 +171,10 @@ resources:
     schema: schemas/base_categoria_pessoal.yaml
     api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
-      sAnoSelecao: 2025
+      sAnoSelecao: 2026
       sTabelaSelec: 12
       CmNomePlanilha: BASE_CATEGORIA_PESSOAL.xls
-      selecaoAno: 2025
+      selecaoAno: 2026
       sBaseSelec: 12
   - name: base_repasse_recursos
     title: Repasse de Recursos
@@ -187,10 +187,10 @@ resources:
     schema: schemas/base_repasse_recursos.yaml
     api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
-      sAnoSelecao: 2025
+      sAnoSelecao: 2026
       sTabelaSelec: 13
       CmNomePlanilha: BASE_REPASSE_RECURSOS.xls
-      selecaoAno: 2025
+      selecaoAno: 2026
       sBaseSelec: 13
   - name: base_limite_cota
     title: Limite de Cota
@@ -203,10 +203,10 @@ resources:
     schema: schemas/base_limite_cota.yaml
     api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
-      sAnoSelecao: 2025
+      sAnoSelecao: 2026
       sTabelaSelec: 14
       CmNomePlanilha: BASE_LIMITE_COTA.xls
-      selecaoAno: 2025
+      selecaoAno: 2026
       sBaseSelec: 14
   - name: base_intra_orcamentaria_detalhamento
     title: Base Intraorçamentária de Detalhamento
@@ -219,10 +219,10 @@ resources:
     schema: schemas/base_intra_orcamentaria_detalhamento.yaml
     api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
-      sAnoSelecao: 2025
+      sAnoSelecao: 2026
       sTabelaSelec: 17
       CmNomePlanilha: BASE_INTRA_ORCAMENTARIA_DETALHAMENTO.xls
-      selecaoAno: 2025
+      selecaoAno: 2026
       sBaseSelec: 17
   - name: base_intra_orcamentaria_repasse
     title: Base Intraorçamentária de Repasse
@@ -235,10 +235,10 @@ resources:
     schema: schemas/base_intra_orcamentaria_repasse.yaml
     api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
-      sAnoSelecao: 2025
+      sAnoSelecao: 2026
       sTabelaSelec: 18
       CmNomePlanilha: BASE_INTRA_ORCAMENTARIA_REPASSE.xls
-      selecaoAno: 2025
+      selecaoAno: 2026
       sBaseSelec: 18
   - name: base_unidades_orcamentaria_versoes
     title: Relação das Unidades Orçamentárias e suas Versões
@@ -251,8 +251,8 @@ resources:
     schema: schemas/base_unidades_orcamentaria_versoes.yaml
     api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
-      sAnoSelecao: 2025
+      sAnoSelecao: 2026
       sTabelaSelec: 21
       CmNomePlanilha: BASE_UNIDADES_ORCAMENTARIA_VERSOES.xls
-      selecaoAno: 2025
+      selecaoAno: 2026
       sBaseSelec: 21
