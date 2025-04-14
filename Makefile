@@ -31,8 +31,15 @@ publish:
 	git add -Af datapackage.json data/*.csv data-raw/*.$(EXT)
 	git commit --author="Automated <actions@users.noreply.github.com>" -m "Update data package at: $$(date +%Y-%m-%dT%H:%M:%SZ)" || exit 0
 	git push
+	trigger
+	
+trigger:
+	curl -X POST \
+	-H "Accept: application/vnd.github.v3+json" \
+	-H "Authorization: token $(GH_PAT)" \
+	https://api.github.com/repos/splor-mg/painel-ldo/dispatches \
+	-d '{"event_type": "trigger-workflow"}'
 
 variables:
 	@echo $(RESOURCE_NAMES)
 	@echo $(OUTPUT_FILES)
-	
