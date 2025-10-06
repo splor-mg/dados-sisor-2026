@@ -3,7 +3,7 @@ name: Updated
 on:
   workflow_dispatch:
 #  schedule:
-#      - cron:  '0 9 * * 1-5'  
+#      - cron:  '0 9 * * 1-5'
 
 jobs:
   all:
@@ -34,6 +34,7 @@ jobs:
         git config user.name "Automated"
         git config user.email "actions@users.noreply.github.com"
         make publish
+        make trigger
     - name: Workflow failure notification
       uses: JasonEtco/create-an-issue@v2
       if: failure()

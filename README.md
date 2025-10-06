@@ -1,25 +1,26 @@
 # SISOR
 
-[![Updated](https://github.com/splor-mg/loa-dados-2025/actions/workflows/all.yaml/badge.svg)](https://github.com/splor-mg/loa-dados-2025/actions/)
+[![Updated](https://github.com/splor-mg/dados-sisor-2026/actions/workflows/all.yaml/badge.svg)](https://github.com/splor-mg/dados-sisor-2026/actions/)
 
 ## Pré-requisitos
 
 Esse projeto utiliza Docker para gerenciamento das dependências. Para fazer _build_  da imagem execute:
 
 ```bash
-docker build --tag loa-elaboracao .
+docker build --tag dados-sisor-2026 .
 ```
 
 ## Uso
 
-Para executar o container
+Para executar o container:
 
 ```bash
-docker run -it --rm --mount type=bind,source=$(PWD),target=/project loa-elaboracao bash
+make docker
 ```
 
-Uma vez dentro do container execute os comandos do make
+Uma vez dentro do container execute os comandos:
 
 ```bash
 make all
+make publish # faz o push das modificações para o GitHub
 ```

@@ -8,10 +8,14 @@ OUTPUT_FILES := $(addsuffix .csv,$(addprefix data/,$(RESOURCE_NAMES)))
 
 all: extract validate transform build check
 
-extract: 
+container:
+	@echo "Starting Docker container..."
+	@docker run -it --rm --mount type=bind,source=$(PWD),target=/project dados-sisor-2026 bash
+
+extract:
 	$(foreach resource_name, $(RESOURCE_NAMES),$(PYTHON) main.py extract $(resource_name) &&) true
 
-validate: 
+validate:
 	frictionless validate datapackage.yaml
 
 transform: $(OUTPUT_FILES)
@@ -27,12 +31,11 @@ datapackage.json: $(OUTPUT_FILES) scripts/build.py datapackage.yaml
 check:
 	frictionless validate datapackage.json
 
-publish: 
+publish:
 	git add -Af datapackage.json data/*.csv data-raw/*.$(EXT)
 	git commit --author="Automated <actions@users.noreply.github.com>" -m "Update data package at: $$(date +%Y-%m-%dT%H:%M:%SZ)" || exit 0
 	git push
-	trigger
-	
+
 trigger:
 	curl -X POST \
 	-H "Accept: application/vnd.github.v3+json" \
