@@ -8,9 +8,6 @@ on:
 jobs:
   all:
     runs-on: self-hosted
-    env:
-      # This tells Python to skip creating the __pycache__ files
-      PYTHONDONTWRITEBYTECODE: 1
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
