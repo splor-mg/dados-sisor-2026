@@ -267,7 +267,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:8a7a6a039248decae20d94f774f04c169fa1672fbe3b97d603fe1ba513562826",
+      "hash": "sha256:fc1f1ce9798be421ff7a6e0aa44495343e1fabccd1dcfb8c9beb421f8d5c7c1e",
       "bytes": 14884,
       "fields": 21,
       "rows": 47,
@@ -1561,5 +1561,5 @@
       }
     }
   ],
-  "updated_at": "2025-11-21T10:12:00"
+  "updated_at": "2025-11-24T10:13:27"
 }
