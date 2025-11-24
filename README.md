@@ -1,5 +1,3 @@
-# Sistema Orçamentário - SISOR 2026
-
 Dados abertos do Sistema Orçamentário - SISOR do Estado de Minas Gerais no ano de 2026, documentado de acordo com o padrão de metadados [Frictionless](https://datapackage.org/overview/introduction/)
 
 ### Como participar
