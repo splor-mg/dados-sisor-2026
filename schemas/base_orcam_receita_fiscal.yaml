@@ -26,7 +26,7 @@ fields:
     type: integer
   - name: SUBALINEA
     type: integer
-  - name: TIPO_RECEITA
+  - name: TIPO DE RECEITA
     type: integer
   - name: ITEM
     type: integer
