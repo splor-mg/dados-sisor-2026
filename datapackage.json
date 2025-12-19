@@ -271,7 +271,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:fc1f1ce9798be421ff7a6e0aa44495343e1fabccd1dcfb8c9beb421f8d5c7c1e",
+      "hash": "sha256:ff2923ea85403f00bde6a84b48d0ee8bdc34a1fac9bfd3d73612d4a6cc2727eb",
       "bytes": 14884,
       "fields": 21,
       "rows": 47,
@@ -395,7 +395,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:78a57cf02791be50e1db039933c281431676fbac7b527baecf448103dcceb586",
+      "hash": "sha256:af820a1ef66cea5dfea55baca6c07bd7ce6027472c6cd38ea8aa67f71be2bf2b",
       "bytes": 14752,
       "fields": 21,
       "rows": 47,
@@ -946,7 +946,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:107a5016c7f0f71860da2557f04fafb782bd0ea36d115f5f5ee6385e6a71a89f",
+      "hash": "sha256:e3749b583b4c569bce4e5eb12b16c15157200d78c4b9aec16e80a93dfa4cf845",
       "bytes": 519087,
       "fields": 24,
       "rows": 1139,
@@ -1085,7 +1085,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:4572d78c6eeb78e7fb488388b0220cb15612bb052c4ee86089c53c9d9fc2e11b",
+      "hash": "sha256:ad6652d4bd8a977d0299cbbaac230e0d7be2ceeca7d1b46c9ee11410fc121b22",
       "bytes": 2722,
       "fields": 14,
       "rows": 19,
@@ -1165,75 +1165,6 @@
       }
     },
     {
-      "name": "base_obras_siad",
-      "type": "table",
-      "title": "base_obras_siad",
-      "profile": "tabular-data-resource",
-      "path": "data/base_obras_siad.csv",
-      "scheme": "file",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
-      "hash": "sha256:b179d52185727245dbd1d5b710f31ce0f7140369e0c18efe221b9b51809be49d",
-      "bytes": 100657,
-      "fields": 10,
-      "rows": 323,
-      "schema": {
-        "fields": [
-          {
-            "name": "orgao_cod",
-            "type": "string",
-            "source": "ORGAO_COD"
-          },
-          {
-            "name": "unidade_adiministrativa_cod",
-            "type": "string",
-            "source": "UNIDADE_ADIMINISTRATIVA_COD"
-          },
-          {
-            "name": "numero_da_obra_siad",
-            "type": "integer",
-            "source": "Número da Obra SIAD"
-          },
-          {
-            "name": "numero_de_referencia_da_uo",
-            "type": "string",
-            "source": "Número de Referência da UO"
-          },
-          {
-            "name": "situacao",
-            "type": "string",
-            "source": "Situação"
-          },
-          {
-            "name": "descricao",
-            "type": "string",
-            "source": "Descrição"
-          },
-          {
-            "name": "data_de_inicio",
-            "type": "string",
-            "source": "Data de Início"
-          },
-          {
-            "name": "data_de_termino",
-            "type": "string",
-            "source": "Data de Término"
-          },
-          {
-            "name": "ano_de_exercicio",
-            "type": "integer",
-            "source": "Ano de Exercício"
-          },
-          {
-            "name": "valor_global",
-            "type": "number",
-            "source": "Valor Global (R$)"
-          }
-        ]
-      }
-    },
-    {
       "name": "base_categoria_pessoal",
       "type": "table",
       "title": "base_categoria_pessoal",
@@ -1243,7 +1174,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:6a7e0435088e267621e4b155da31489ba9f34726961cfd1f7e3380d48ba8f973",
+      "hash": "sha256:c67f6938af8902e0809f6c9f834f8ad6a28106d18abda675a230bc0d97e73db4",
       "bytes": 14984,
       "fields": 5,
       "rows": 330,
@@ -1351,7 +1282,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:877d31a23dc4f0de79a6d96ef6c5f264ac36ee29d3270675cb286ad238ba7d05",
+      "hash": "sha256:37497b6f0fae60dd7a9fc8ddb859951cadcd19095e1bb122b5b455552f5cbe25",
       "bytes": 43863,
       "fields": 15,
       "rows": 506,
@@ -1579,5 +1510,5 @@
     }
   ],
   "owner_org": "secretaria-de-estado-de-planejamento-e-gestao-seplag",
-  "updated_at": "2025-12-05T10:12:22"
+  "updated_at": "2025-12-19T17:18:29"
 }
