@@ -146,22 +146,22 @@ resources:
       CmNomePlanilha: BASE_ORCAM_RECEITA_INVESTIMENTO.xls
       selecaoAno: 2026
       sBaseSelec: 7
-  - name: base_obras_siad
-    title: Registro de Obras no SIAD
-    path: data-raw/base_obras_siad.html
-    type: table
-    format: html
-    encoding: windows-1252
-    hash: sha256:df73c4811a4e34b6dd027d219138f09c9027768193f2faa07bc93664179e0c0a
-    dialect: dialect.yaml
-    schema: schemas/base_obras_siad.yaml
-    api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
-    payload:
-      sAnoSelecao: 2026
-      sTabelaSelec: 11
-      CmNomePlanilha: BASE_OBRAS_SIAD.xls
-      selecaoAno: 2026
-      sBaseSelec: 11
+  # - name: base_obras_siad
+  #   title: Registro de Obras no SIAD
+  #   path: data-raw/base_obras_siad.html
+  #   type: table
+  #   format: html
+  #   encoding: windows-1252
+  #   hash: sha256:df73c4811a4e34b6dd027d219138f09c9027768193f2faa07bc93664179e0c0a
+  #   dialect: dialect.yaml
+  #   schema: schemas/base_obras_siad.yaml
+  #   api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
+  #   payload:
+  #     sAnoSelecao: 2026
+  #     sTabelaSelec: 11
+  #     CmNomePlanilha: BASE_OBRAS_SIAD.xls
+  #     selecaoAno: 2026
+  #     sBaseSelec: 11
   - name: base_categoria_pessoal
     title: Categoria de Pessoal
     path: data-raw/base_categoria_pessoal.html
