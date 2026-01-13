@@ -271,7 +271,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:ff2923ea85403f00bde6a84b48d0ee8bdc34a1fac9bfd3d73612d4a6cc2727eb",
+      "hash": "sha256:b3a2a7a208f594183d3bf25b497141e3bf77463de767841d4283ceaf8ecd1908",
       "bytes": 14884,
       "fields": 21,
       "rows": 47,
@@ -946,8 +946,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:665ff62557e9be0062c6cb3a915aba0f0dc24edfeab642c978e43d1486f7b1b2",
-      "bytes": 519088,
+      "hash": "sha256:81b6f7940305a08913c70dc7666a97da37627641caf0f30cfb2a42c50eb1c81e",
+      "bytes": 519085,
       "fields": 24,
       "rows": 1139,
       "schema": {
@@ -995,7 +995,7 @@
           {
             "name": "especie",
             "type": "integer",
-            "source": "ESPÉCIE"
+            "source": "ESPECIE"
           },
           {
             "name": "rubrica",
@@ -1013,9 +1013,9 @@
             "source": "SUBALINEA"
           },
           {
-            "name": "tipo_de_receita",
+            "name": "tipo_receita",
             "type": "integer",
-            "source": "TIPO DE RECEITA"
+            "source": "TIPO_RECEITA"
           },
           {
             "name": "item",
@@ -1085,7 +1085,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:f9ee7b4f5131e9161be9a8bae2ed20fdf3b59776cc0887d5d646546a79662c82",
+      "hash": "sha256:ad6652d4bd8a977d0299cbbaac230e0d7be2ceeca7d1b46c9ee11410fc121b22",
       "bytes": 2722,
       "fields": 14,
       "rows": 19,
@@ -1174,7 +1174,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:8c3da3629075e9410848939b58ce179380d995a27338bbe639f9b1097d4f90ac",
+      "hash": "sha256:c67f6938af8902e0809f6c9f834f8ad6a28106d18abda675a230bc0d97e73db4",
       "bytes": 14984,
       "fields": 5,
       "rows": 330,
@@ -1282,7 +1282,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:877d31a23dc4f0de79a6d96ef6c5f264ac36ee29d3270675cb286ad238ba7d05",
+      "hash": "sha256:37497b6f0fae60dd7a9fc8ddb859951cadcd19095e1bb122b5b455552f5cbe25",
       "bytes": 43863,
       "fields": 15,
       "rows": 506,
@@ -1510,5 +1510,5 @@
     }
   ],
   "owner_org": "secretaria-de-estado-de-planejamento-e-gestao-seplag",
-  "updated_at": "2025-12-31T10:12:28"
+  "updated_at": "2026-01-13T17:29:20"
 }
