@@ -11,7 +11,7 @@ resources:
     hash: sha256:29f74ad3d1a993bde1e1abe77107a21c4b2d40ae36a8f714b798dce73ca99cf0
     dialect: dialect.yaml
     schema: schemas/base_orcam_despesa_item_fiscal.yaml
-    api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
+    api_url: https://homosisor.prodemge.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
       sAnoSelecao: 2026
       sTabelaSelec: 1
@@ -27,7 +27,7 @@ resources:
     hash: sha256:a4e7fe2f4e557b5fb1d4bc0b5b1129bfceaee4acc8a1791a0bc6921fd1f0dcb7
     dialect: dialect.yaml
     schema: schemas/base_qdd_plurianual.yaml
-    api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
+    api_url: https://homosisor.prodemge.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
       sAnoSelecao: 2026
       sTabelaSelec: 9
@@ -43,7 +43,7 @@ resources:
     hash: sha256:81a39d86c073eb11ad4765763d181fc80085f203971c6b528a26437138bfd0bf
     dialect: dialect.yaml
     schema: schemas/base_qdd_plurianual_invest.yaml
-    api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
+    api_url: https://homosisor.prodemge.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
       sAnoSelecao: 2026
       sTabelaSelec: 16
@@ -59,7 +59,7 @@ resources:
     hash: sha256:29b64772a4f14b43684e02e3f2a67fbd4a9efd8abf161dd4813b2e8e2905428d
     dialect: dialect.yaml
     schema: schemas/base_orcam_despesa_investimento.yaml
-    api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
+    api_url: https://homosisor.prodemge.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
       sAnoSelecao: 2026
       sTabelaSelec: 2
@@ -75,7 +75,7 @@ resources:
     hash: sha256:171eb1baf65f6e4c4b6d2dc9976b495581184e2c2257b94653f1335ed259c7b1
     dialect: dialect.yaml
     schema: schemas/base_detalhamento_obras.yaml
-    api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
+    api_url: https://homosisor.prodemge.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
       sAnoSelecao: 2026
       sTabelaSelec: 3
@@ -91,7 +91,7 @@ resources:
     hash: sha256:882403562cd8e2bb2cd1e72bea5766ffae915f300d358bb640168c356a0dffb9
     dialect: dialect.yaml
     schema: schemas/base_qdd_fiscal.yaml
-    api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
+    api_url: https://homosisor.prodemge.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
       sAnoSelecao: 2026
       sTabelaSelec: 4
@@ -107,7 +107,7 @@ resources:
     hash: sha256:2fc474547899f86de802620107a8838bef50f5c578528103f963f13008a5baaa
     dialect: dialect.yaml
     schema: schemas/base_qdd_investimento.yaml
-    api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
+    api_url: https://homosisor.prodemge.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
       sAnoSelecao: 2026
       sTabelaSelec: 5
@@ -123,7 +123,7 @@ resources:
     hash: sha256:0f2e5e6fdc0fb6d25d0ebc878a3299959160369b084218f6e2fa102278c29b71
     dialect: dialect.yaml
     schema: schemas/base_orcam_receita_fiscal.yaml
-    api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
+    api_url: https://homosisor.prodemge.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
       sAnoSelecao: 2026
       sTabelaSelec: 6
@@ -139,7 +139,7 @@ resources:
     hash: sha256:129adbc930083401c4e1d4ba431781b7d42e93a7131152d491d73786a2fcdf05
     dialect: dialect.yaml
     schema: schemas/base_orcam_receita_investimento.yaml
-    api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
+    api_url: https://homosisor.prodemge.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
       sAnoSelecao: 2026
       sTabelaSelec: 7
@@ -155,7 +155,7 @@ resources:
   #   hash: sha256:df73c4811a4e34b6dd027d219138f09c9027768193f2faa07bc93664179e0c0a
   #   dialect: dialect.yaml
   #   schema: schemas/base_obras_siad.yaml
-  #   api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
+  #   api_url: https://homosisor.prodemge.gov.br/aoad/AtGeraBaseExcelNova.jsp
   #   payload:
   #     sAnoSelecao: 2026
   #     sTabelaSelec: 11
@@ -171,7 +171,7 @@ resources:
     hash: sha256:aec12bc2b3cf28f061cf2cd90d3020d5b897ae22c154f8949a12f4468888cf84
     dialect: dialect.yaml
     schema: schemas/base_categoria_pessoal.yaml
-    api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
+    api_url: https://homosisor.prodemge.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
       sAnoSelecao: 2026
       sTabelaSelec: 12
@@ -187,7 +187,7 @@ resources:
     hash: sha256:14c242c5711c0582dc4ed62ccbcf2a02f880e4cb86102f699800656b1306b9ba
     dialect: dialect.yaml
     schema: schemas/base_repasse_recursos.yaml
-    api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
+    api_url: https://homosisor.prodemge.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
       sAnoSelecao: 2026
       sTabelaSelec: 13
@@ -203,7 +203,7 @@ resources:
     hash: sha256:ec933b0074f3b62a585fbd0063244273b886c83c17280754767d95ce8dfb6580
     dialect: dialect.yaml
     schema: schemas/base_limite_cota.yaml
-    api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
+    api_url: https://homosisor.prodemge.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
       sAnoSelecao: 2026
       sTabelaSelec: 14
@@ -219,7 +219,7 @@ resources:
     hash: sha256:f008502bd06d3a8543d04fdf7b466fef9ceb1eb9e281d148ad9f920e8d869853
     dialect: dialect.yaml
     schema: schemas/base_intra_orcamentaria_detalhamento.yaml
-    api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
+    api_url: https://homosisor.prodemge.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
       sAnoSelecao: 2026
       sTabelaSelec: 17
@@ -235,7 +235,7 @@ resources:
     hash: sha256:4be72bfd8222f10ac12843e6a5bd593be47ee9631cd32e2849c87a789a68bc43
     dialect: dialect.yaml
     schema: schemas/base_intra_orcamentaria_repasse.yaml
-    api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
+    api_url: https://homosisor.prodemge.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
       sAnoSelecao: 2026
       sTabelaSelec: 18
@@ -251,7 +251,7 @@ resources:
     hash: sha256:89f4bfa04e7127c019179775a426f8eab77513f0f2c54a0306a1f8eea34b5b00
     dialect: dialect.yaml
     schema: schemas/base_unidades_orcamentaria_versoes.yaml
-    api_url: https://www.orcamento.mg.gov.br/aoad/AtGeraBaseExcelNova.jsp
+    api_url: https://homosisor.prodemge.gov.br/aoad/AtGeraBaseExcelNova.jsp
     payload:
       sAnoSelecao: 2026
       sTabelaSelec: 21
