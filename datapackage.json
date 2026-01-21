@@ -13,10 +13,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:1624bf74f84441d37fbb8d015c96e29552bead07500b0c77f4290f46367a1e77",
-      "bytes": 2121990,
+      "hash": "sha256:81f033cc00470c9d31ab781a456a0d782248811b308153f8bcb6c65a81b0310a",
+      "bytes": 2156144,
       "fields": 21,
-      "rows": 9548,
+      "rows": 9697,
       "schema": {
         "fields": [
           {
@@ -137,10 +137,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:1d470610a2a8af9d46c7dc14a66293574a02fe93da3a3df5a77e48d920806918",
-      "bytes": 554551,
+      "hash": "sha256:78dd0c6b0c288d9d31ead2d760a27a715d832c865b03af8f13663f1c710aefaf",
+      "bytes": 558067,
       "fields": 23,
-      "rows": 1955,
+      "rows": 1971,
       "schema": {
         "fields": [
           {
@@ -271,7 +271,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:ff2923ea85403f00bde6a84b48d0ee8bdc34a1fac9bfd3d73612d4a6cc2727eb",
+      "hash": "sha256:fc1f1ce9798be421ff7a6e0aa44495343e1fabccd1dcfb8c9beb421f8d5c7c1e",
       "bytes": 14884,
       "fields": 21,
       "rows": 47,
@@ -395,7 +395,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:af820a1ef66cea5dfea55baca6c07bd7ce6027472c6cd38ea8aa67f71be2bf2b",
+      "hash": "sha256:907e912173fdcfcd4fec6773c9dd60373dd452b4736d0f3505f9eed8af90fd7f",
       "bytes": 14752,
       "fields": 21,
       "rows": 47,
@@ -658,10 +658,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:b590bfc9753c44b60606a3bca60d2fd12f9405f902cc0ef77eed9ff3a875a18f",
-      "bytes": 1337165,
+      "hash": "sha256:046c34adadf254c6d885b32bd93ad8ba7fd0309fc314e9574a8a82764d6cb703",
+      "bytes": 1382677,
       "fields": 27,
-      "rows": 4432,
+      "rows": 4581,
       "schema": {
         "fields": [
           {
@@ -946,7 +946,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:e5a9a9639e632e02d6a3583f1eabaaf3d278bddb226bdd09da4b08fad708f38d",
+      "hash": "sha256:08047ca30efaefeaddaa3b9e47b9cb322301535e842658c34265763171ebe2bc",
       "bytes": 519085,
       "fields": 24,
       "rows": 1139,
@@ -1174,7 +1174,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:c67f6938af8902e0809f6c9f834f8ad6a28106d18abda675a230bc0d97e73db4",
+      "hash": "sha256:8c3da3629075e9410848939b58ce179380d995a27338bbe639f9b1097d4f90ac",
       "bytes": 14984,
       "fields": 5,
       "rows": 330,
@@ -1282,8 +1282,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:877d31a23dc4f0de79a6d96ef6c5f264ac36ee29d3270675cb286ad238ba7d05",
-      "bytes": 43863,
+      "hash": "sha256:c4653a34169d7ccd43e8e2c197b156114aa5fe4b7ed74f4beee483b680a4ea25",
+      "bytes": 43862,
       "fields": 15,
       "rows": 506,
       "schema": {
@@ -1479,7 +1479,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:ad701f03ab9e582d1747dab744cff7bea7df08b147cb5a0c5f57936697861758",
+      "hash": "sha256:67872525e8c62710513dd09ddcf226f228a99cf72f8ed972dcfeec109ca2d206",
       "bytes": 11442,
       "fields": 4,
       "rows": 179,
@@ -1510,5 +1510,5 @@
     }
   ],
   "owner_org": "secretaria-de-estado-de-planejamento-e-gestao-seplag",
-  "updated_at": "2026-01-20T15:22:36"
+  "updated_at": "2026-01-21T02:24:48"
 }
