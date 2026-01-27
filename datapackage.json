@@ -137,8 +137,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:9c2f102cceba1af51d8021e87e817e8903384bad34bea4acdc5c8250034d8044",
-      "bytes": 559603,
+      "hash": "sha256:3060b653c47e5bfa98c5f9401b5fbc0494406bfbfbdd08ff95c1ab83cf99103c",
+      "bytes": 548642,
       "fields": 23,
       "rows": 1977,
       "schema": {
@@ -395,7 +395,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:907e912173fdcfcd4fec6773c9dd60373dd452b4736d0f3505f9eed8af90fd7f",
+      "hash": "sha256:6281856706177946becd5167cb18c90be3ae7a335521feddfd79a2f003b258bc",
       "bytes": 14752,
       "fields": 21,
       "rows": 47,
@@ -946,7 +946,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:08047ca30efaefeaddaa3b9e47b9cb322301535e842658c34265763171ebe2bc",
+      "hash": "sha256:ac90f83b1b14ef05d39b26cc54e504cabfea86a833d7baf72a2cb0e251239b42",
       "bytes": 519085,
       "fields": 24,
       "rows": 1139,
@@ -1510,5 +1510,5 @@
     }
   ],
   "owner_org": "secretaria-de-estado-de-planejamento-e-gestao-seplag",
-  "updated_at": "2026-01-26T10:17:22"
+  "updated_at": "2026-01-27T10:17:10"
 }
