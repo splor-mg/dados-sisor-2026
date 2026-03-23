@@ -10,10 +10,12 @@ def extract_resource(resource_name: str, descriptor: str = 'datapackage.yaml'):
     package = Package(descriptor)
     resource = package.get_resource(resource_name)
     res = requests.post(resource.custom['api_url'],
-                        headers = {'User-Agent': 'splor'}, 
-                        data = resource.custom['payload'], 
-                        stream = True)
+                        headers = {'User-Agent': 'splor'},
+                        data = resource.custom['payload'],
+                        stream = True,
+                        verify=False,
+                        )
     res.raise_for_status()
-    
+
     with open(resource.path, 'wb') as file:
         shutil.copyfileobj(res.raw, file)
