@@ -271,7 +271,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:ff2923ea85403f00bde6a84b48d0ee8bdc34a1fac9bfd3d73612d4a6cc2727eb",
+      "hash": "sha256:fc1f1ce9798be421ff7a6e0aa44495343e1fabccd1dcfb8c9beb421f8d5c7c1e",
       "bytes": 14884,
       "fields": 21,
       "rows": 47,
@@ -1165,6 +1165,75 @@
       }
     },
     {
+      "name": "base_obras_siad",
+      "type": "table",
+      "title": "base_obras_siad",
+      "profile": "tabular-data-resource",
+      "path": "data/base_obras_siad.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "hash": "sha256:9a41b32bfdaf3c1386edbce702460e54db3974c7cbe59a021063d6909827c2f3",
+      "bytes": 131741,
+      "fields": 10,
+      "rows": 422,
+      "schema": {
+        "fields": [
+          {
+            "name": "orgao_cod",
+            "type": "string",
+            "source": "ORGAO_COD"
+          },
+          {
+            "name": "unidade_adiministrativa_cod",
+            "type": "string",
+            "source": "UNIDADE_ADIMINISTRATIVA_COD"
+          },
+          {
+            "name": "numero_da_obra_siad",
+            "type": "integer",
+            "source": "Número da Obra SIAD"
+          },
+          {
+            "name": "numero_de_referencia_da_uo",
+            "type": "string",
+            "source": "Número de Referência da UO"
+          },
+          {
+            "name": "situacao",
+            "type": "string",
+            "source": "Situação"
+          },
+          {
+            "name": "descricao",
+            "type": "string",
+            "source": "Descrição"
+          },
+          {
+            "name": "data_de_inicio",
+            "type": "string",
+            "source": "Data de Início"
+          },
+          {
+            "name": "data_de_termino",
+            "type": "string",
+            "source": "Data de Término"
+          },
+          {
+            "name": "ano_de_exercicio",
+            "type": "integer",
+            "source": "Ano de Exercício"
+          },
+          {
+            "name": "valor_global",
+            "type": "number",
+            "source": "Valor Global (R$)"
+          }
+        ]
+      }
+    },
+    {
       "name": "base_categoria_pessoal",
       "type": "table",
       "title": "base_categoria_pessoal",
@@ -1510,5 +1579,5 @@
     }
   ],
   "owner_org": "secretaria-de-estado-de-planejamento-e-gestao-seplag",
-  "updated_at": "2026-03-26T10:42:11"
+  "updated_at": "2026-03-26T17:33:10"
 }
