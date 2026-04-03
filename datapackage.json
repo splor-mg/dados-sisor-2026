@@ -946,7 +946,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:ac90f83b1b14ef05d39b26cc54e504cabfea86a833d7baf72a2cb0e251239b42",
+      "hash": "sha256:afbf2f687cf54565bffade4de86f6c2377634d29cd391be8e0da88639cddf851",
       "bytes": 519085,
       "fields": 24,
       "rows": 1139,
@@ -1579,5 +1579,5 @@
     }
   ],
   "owner_org": "secretaria-de-estado-de-planejamento-e-gestao-seplag",
-  "updated_at": "2026-04-02T10:41:55"
+  "updated_at": "2026-04-03T10:33:13"
 }
