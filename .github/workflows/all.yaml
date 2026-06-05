@@ -11,6 +11,12 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+
+      - name: Install system packages
+        run: |
+          apt-get update
+          apt-get install -y make
+
       - name: Instalar Python
         uses: actions/setup-python@v5
         with:
