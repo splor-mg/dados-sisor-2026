@@ -7,7 +7,7 @@ on:
 
 jobs:
   all:
-    runs-on: runner-2.330.0
+    runs-on: teste
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
