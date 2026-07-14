@@ -271,7 +271,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:fc1f1ce9798be421ff7a6e0aa44495343e1fabccd1dcfb8c9beb421f8d5c7c1e",
+      "hash": "sha256:6f65187465e9d4fed714626b9535872f55963b7a9c34fd955629f40473c6f761",
       "bytes": 14884,
       "fields": 21,
       "rows": 47,
@@ -395,7 +395,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:55589ee6f331dc1dcf89587acff6ae73c2dd7eb7a70f6a5de8e79565230634b8",
+      "hash": "sha256:907e912173fdcfcd4fec6773c9dd60373dd452b4736d0f3505f9eed8af90fd7f",
       "bytes": 14752,
       "fields": 21,
       "rows": 47,
@@ -1174,10 +1174,10 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:2e5034ace65a7aa83c19d12d8f31f14521ab3b74c0236dd4345fa30255f210e2",
-      "bytes": 150189,
+      "hash": "sha256:908f7ccb2a7f2e2047c64b6c1dc5285e421562d4e8e1eaebdae811ee49998188",
+      "bytes": 150364,
       "fields": 10,
-      "rows": 477,
+      "rows": 478,
       "schema": {
         "fields": [
           {
@@ -1243,7 +1243,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:c67f6938af8902e0809f6c9f834f8ad6a28106d18abda675a230bc0d97e73db4",
+      "hash": "sha256:8c3da3629075e9410848939b58ce179380d995a27338bbe639f9b1097d4f90ac",
       "bytes": 14984,
       "fields": 5,
       "rows": 330,
@@ -1579,5 +1579,5 @@
     }
   ],
   "owner_org": "secretaria-de-estado-de-planejamento-e-gestao-seplag",
-  "updated_at": "2026-07-13T14:41:38"
+  "updated_at": "2026-07-14T11:15:14"
 }
